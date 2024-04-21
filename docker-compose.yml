@@ -1,0 +1,11 @@
+version: "3"
+services:
+  ubuntu-dev:
+    image: zhangbowen1223/ubuntu20_dev:0.7
+    ports:
+      - "2022:22"
+      - "4196:4196"
+    volumes:
+      - "C:/Users/bw/Documents/docker-compose/shared:/shared"
+    hostname: dev
+    privileged: true
