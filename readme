@@ -1,2 +1,5 @@
 1. please edit the docker-compose.yml file accordingly
-2. run docker-compose up
+2. run docker-compose up &
+
+To commit:
+docker commit -m "updates" contionerID zhangbowen1223/ubuntu20_dev:0.9
